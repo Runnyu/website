@@ -2,16 +2,16 @@
 <html lang="en">  
 <head>  
     <meta charset="UTF-8">  
-    <title>Login</title>  
+    <title>Register</title>  
     <link rel="stylesheet" type="text/css" href="static/css/Login.css"/>  
 </head>  
 <body>  
     <div id="login">  
-        <h1>Login</h1>  
-        <form action="do_login" method="post">  {% csrf_token %}
+        <h1>Register</h1>  
+        <form action="do_register" method="post">  {% csrf_token %}
             <input type="text" required="required" placeholder="用户名" name="account"></input>  
             <input type="password" required="required" placeholder="密码" name="pwd"></input>  
-            <button class="but" type="submit">登录</button>  
+            <button class="but" type="submit">注册</button>  
         </form>  
     </div>  
 </body>  

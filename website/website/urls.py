@@ -1,4 +1,4 @@
-"""website URL Configuration
+"""demo URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.10/topics/http/urls/
@@ -14,8 +14,13 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 from django.conf.urls import url
+from django.contrib import admin
 from . import view
 
 urlpatterns = [
-    url(r'^login$', view.login),
+	url(r'^all$', view.all),
+	url(r'^login$', view.login),
+	url(r'^do_login$', view.do_login),
+	url(r'^register$', view.register),
+	url(r'^do_register$', view.do_register),
 ]
