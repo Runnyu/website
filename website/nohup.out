@@ -1,0 +1,4 @@
+Not Found: /
+2017-05-14 12:54:02,563 WARNING Not Found: /
+[14/May/2017 12:54:02] "GET / HTTP/1.1" 404 1908
+[14/May/2017 12:54:09] "GET /login HTTP/1.1" 200 15
